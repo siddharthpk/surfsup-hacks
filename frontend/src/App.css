@@ -1,3 +1,31 @@
+.vv
+{
+    height:50px;
+    width: 700px;
+    font-size:14pt;
+text-align: center;
+border-radius: 25px;
+}
+.vvv
+{
+    height:50px;
+    width: 100px;
+    font-size:14pt;
+background-color: #61dafb;
+border-radius: 25px;
+}
+.vvvv
+{
+text-align: center;
+border-radius: 25px;
+width: 300px;
+    color: #61dafb;
+background-color: #000080;
+background-color: rgba(0, 0, 128, .7);
+
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +42,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('background.jpg');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +66,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
