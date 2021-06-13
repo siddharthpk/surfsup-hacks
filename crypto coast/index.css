@@ -1,9 +1,17 @@
-@import url('https://fonts.gooleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+ @viewport {
+  width: device-width;
+    zoom: 0.8;
+    min-zoom: 0.5;
+    max-zoom: 3;
+    user-zoom: fixed;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Original Surfer', cursive;
     scroll-behavior: smooth;
     
 
@@ -125,16 +133,14 @@ section img{
     font-size: 3.5em;
     margin-bottom: 10px;
     color: white;
+    margin-left: 20px; 
+    text-align: center;
 }
 .sec p{
     font-size: 1.2em;
     color: white;
 
 }
-
-
-
-  
   button{
     position: absolute;
     width: 100px;
@@ -165,9 +171,10 @@ section img{
     height: 100px;
     left: 80px;
     top: 210px;
-
-    background:white;
+    padding: 0px;
+    background:lightblue;
     border-radius: 48px;
+
   }
 
   .card1:hover {
@@ -198,7 +205,7 @@ section img{
     left: 80px;
     top:440px;
     
-    background:white;
+    background:lightblue;
     border-radius: 48px;
   }
 
@@ -229,7 +236,7 @@ section img{
     left: 80px;
     top:687px;
 
-    background:white;
+    background:lightblue;
     border-radius: 48px;
   }
 
@@ -274,9 +281,8 @@ section img{
     position: absolute;
     width: 208px;
     height: 76px;
-    left: 100px;
+    left:50px;
     top: 10px;
-    
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
