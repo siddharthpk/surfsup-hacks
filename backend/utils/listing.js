@@ -8,7 +8,7 @@ const currencies = {
   ETH: 'ETH'
 }
 
-const listing = (sym) =>{
+const listing = (sym,callback) =>{
      var reqOpts = {
         method: 'GET',
         uri: URL + '/info',
@@ -27,12 +27,11 @@ const listing = (sym) =>{
               callback('Unable to connect to API service', undefined)
           }
           else{
-            var result = response.body.data
-            var currency_data = result.BTC
-          }
-      })
+            callback(undefined, {
+              cryptoData : response.body.data
+          })
+      }
+    })
 }
-
-listing(currencies.BTC)
 
 module.exports = listing
