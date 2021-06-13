@@ -5,12 +5,15 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
     scroll-behavior: smooth;
+    
+
 }
 body{
     min-height: 100vh;
     overflow-x: hidden;
     background:white;
     background-image: url(images/background.png);
+    
 }
 header{
     position: absolute;
@@ -89,9 +92,6 @@ section img{
     pointer-events: none;
 }
 
-#mountain_front{
-    z-index: 10;
-}
 #text{
     position: absolute;
     color: white;
@@ -119,7 +119,6 @@ section img{
 }
 .sec{
     position: relative;
-    padding: 100px;
     background: #ffb36e;
 }
 .sec h2{
@@ -132,3 +131,250 @@ section img{
     color: white;
 
 }
+
+
+
+  
+  button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1200px;
+    top:25px;
+    display: inline-flex;
+    padding: 9px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff0e6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fd3535;
+    background: linear-gradient(147deg, #fe8a39  0%, #fd3838 74%);
+  }
+  button:hover{
+    background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
+  }
+  
+  .card1{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top: 210px;
+
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card1:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .card2{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:320px;
+   
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card2:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .card3{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:440px;
+    
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card3:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .card4{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:562px;
+   
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card4:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+  .card5{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:687px;
+
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card5:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .card6{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:810px;
+    margin: 10px;
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card6:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .card7{
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    left: 80px;
+    top:94px;
+    /* margin: 10px; */
+    background:white;
+    border-radius: 48px;
+  }
+
+  .card7:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }  
+
+  .crylogo{
+    position: absolute;
+    width: 208px;
+    height: 76px;
+    left: 100px;
+    top: 10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #000000;
+    
+  }
+
+  .price{
+    position: absolute;
+width: 237px;
+height: 76px;
+left: 370px;
+top: 30px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 75px;
+
+color: #000000;
+
+  }
+  .pricesp{
+    position: absolute;
+    width: 208px;
+    height: 76px;
+    left: 370px;
+    top: -10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 75px;
+    
+    color: #8E8E8E;
+    
+  }
+
+  .market{
+    position: absolute;
+width: 578px;
+height: 76px;
+left: 570px;
+top: 30px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 75px;
+
+color: #000000
+    
+  }
+
+  .marksp{
+    position: absolute;
+    width: 341px;
+    height: 90px;
+    left: 570px;
+    top: -10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 75px;
+    
+    color: #919191;
+  }
+
+  .vol{
+    position: absolute;
+width: 543px;
+height: 76px;
+left: 900px;
+top: 30px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 75px;
+
+color: #000000
+    
+  }
+
+  .volsp{
+    position: absolute;
+width: 252px;
+height: 76px;
+left: 900px;
+top: -10px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 75px;
+
+color: #8F8F8F;
+    
+  }
